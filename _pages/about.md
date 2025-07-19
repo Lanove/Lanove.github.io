@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -32,3 +32,32 @@ Write your biography here. Tell the world about yourself. Link to your favorite 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+<div style="margin-top: 16rem;">
+</div>
+---
+## Gallery
+
+<div class="row mt-4 g-4">
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ '/assets/img/1.jpg' | relative_url }}" class="card-img-top" alt="Gallery Image 1" style="height: 200px; object-fit: cover;">
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ '/assets/img/3.jpg' | relative_url }}" class="card-img-top" alt="Gallery Image 2" style="height: 200px; object-fit: cover;">
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ '/assets/img/5.jpg' | relative_url }}" class="card-img-top" alt="Gallery Image 3" style="height: 200px; object-fit: cover;">
+        </div>
+    </div>
+</div>
+
+<div class="mt-5 mb-4">          <!-- Top margin: large, Bottom margin: medium -->
+</div>
+---
