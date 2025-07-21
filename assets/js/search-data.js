@@ -39,17 +39,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-fiammetta",
-          title: 'Fiammetta',
-          description: "A dynamic quadruped robot dog.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -84,6 +74,21 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-fiammetta",
+          title: 'Fiammetta',
+          description: "A dynamic quadruped robot dog.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robots_fia/";
+            },},{id: "projects-garaga",
+          title: 'Garaga',
+          description: "A 4-DoF robotic arm.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robots_garaga/";
+            },},{id: "projects-phynix-1",
+          title: 'Phynix-1',
+          description: "A hexapod robot.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robots_phynix/";
             },},{
         id: 'social-email',
         title: 'email',
