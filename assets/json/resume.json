@@ -44,14 +44,14 @@
       "position": "Hardware and Embedded System Engineer",
       "startDate": "2023-04-01",
       "endDate": "2024-06-01",
-      "summary": "Led the development of a transcription device, including firmware, a custom Allwinner A33-based SBC, and a companion Flutter app."
+      "summary": "Led the development of a wireless transcription device that can transcribe upto 3 person in real time, and creating a companion Flutter app."
     },
     {
       "name": "Lokapin",
       "position": "IoT Developer and Hardware Engineer",
       "startDate": "2022-09-01",
       "endDate": "2023-03-01",
-      "summary": "Led the hardware development lifecycle for a LoRa-based pet tracker, from research and BOM creation to the final 4-layer RF PCB design and low-power firmware implementation."
+      "summary": "Led the hardware development for a LoRa-based pet tracker, from research and BOM creation to the final 4-layer RF PCB design and low-power firmware implementation."
     },
     {
       "name": "Autonik Pack Machinery",
