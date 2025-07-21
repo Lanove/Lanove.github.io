@@ -74,6 +74,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-mynd",
+          title: 'Mynd',
+          description: "A programmable school bell system.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/es_mynd/";
             },},{id: "projects-fiammetta",
           title: 'Fiammetta',
           description: "A dynamic quadruped robot dog.",
