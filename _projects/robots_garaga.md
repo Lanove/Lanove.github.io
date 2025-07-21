@@ -9,7 +9,7 @@ giscus_comments: false
 ---
 
 <div class="text-center">
-    <img src="{{ '/assets/img/garaga/garaga.jpg' | relative_url }}" alt="Garaga" class="img-fluid" style="height: 70vh; object-fit: contain;">
+    <img src="{{ '/assets/img/garaga/garaga.jpg' | relative_url }}" alt="Garaga" class="img-fluid" style="height: 50vh; object-fit: contain;">
 </div>
 
 **Garaga** is a 4-DoF robotic arm that I built during my time at second grade Vocational High School (SMK) for a school contest.

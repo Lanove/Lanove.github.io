@@ -2,7 +2,7 @@
 layout: page
 title: Phynix-1
 description: A hexapod robot.
-img: assets/img/Phynix-1/compe.jpg
+img: assets/img/Phynix-1/compe3.jpg
 importance: 2
 category: robotics
 giscus_comments: false
@@ -10,7 +10,7 @@ giscus_comments: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Phynix-1/compe.jpg" title="Phynix-1 Final" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Phynix-1/compe3.jpg" title="Phynix-1 Final" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -39,7 +39,13 @@ As a core member of the team and the Head of the Electronic Division, I had the 
     Me and my teammate at the KRI 2024, preparing Phynix-1.
 </div>
 
-The architecture of Phynix-1 is a two-tiered system designed for robust and intelligent operation. The "brain" is an NVIDIA Jetson Nano, running Ubuntu 20, which handles all the high-level algorithms, from pathfinding to strategy execution. This is bridged to the physical hardware by a powerful STM32F4 microcontroller. The STM32F4 communicates directly with all the low-level components, including the IMU for orientation data and the servos that control each of its six legs.
+The architecture of Phynix-1 is a two-tiered system. The "brain" is an NVIDIA Jetson Nano, running Ubuntu 20, which handles all the high-level algorithms and controls, from pathfinding to strategy execution. This is bridged to the physical hardware by a powerful STM32F4 microcontroller. The STM32F4 communicates directly with all the low-level components, including the IMU for orientation data and the servos that control each of its six legs.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MHWqEUXArn0?si=C-LpKeoJXzXKVXB3&amp;start=332" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
 
 All the late nights, tireless trials culminated in the proudest moment for our team. At the Kontes Robot Indonesia (KRI) 2024 National competition, Phynix-1 not only competed but excelled. It navigated the challenging arena, earning our team both the....
 
