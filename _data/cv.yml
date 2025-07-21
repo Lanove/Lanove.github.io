@@ -1,97 +1,122 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    Full Name: Figo Arzaki Maulana
+    Email: figoarzaki123@email.com
+    Phone: "085843503354"
+    GitHub: <a href="https://github.com/figoarzaki">figoarzaki</a>
+    LinkedIn: <a href="https://www.linkedin.com/in/figo-arzaki-maulana">figo-arzaki-maulana</a>
+    Languages: English (TEFL 573), Japanese (N4 Equivalent)
 
-- title: Education
-  type: time_table
+- title: Profile
+  type: list
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - Electrical Engineering Student specializing in embedded systems, robotics, and hardware design.
+    - Proven ability to lead high-performance teams, demonstrated by securing 1st place at the KRI 2024 National Robotics Competition.
+    - Experienced in full-stack hardware development, from custom 6-layer PCB design, IoT devices development to advanced robotics control systems, bridging low-level firmware and high-level applications.
+    - Eager to apply strong problem-solving and advanced technical skills to challenging engineering problems.
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - C, C++, Python, Matlab, Ladder Logic, Verilog, JavaScript, PHP, Dart
+    - title: Embedded Systems
+      items:
+        - STM32, ESP32/8266, RP2040, AVR, PIC, 8051, FPGA
+    - title: Development Platforms
+      items:
+        - Linux, ROS, ESP-IDF, Pico SDK, FreeRTOS, Flutter
+    - title: Protocols
+      items:
+        - CAN, SPI, I2C, UART, USB, I2S, SDIO, Modbus, Ethernet, WiFi, HTTP/HTTPS
+    - title: Simulation & Analysis
+      items:
+        - Mu.JoCo, LTspice, Proteus, Simulink, pyBullet, NI Multisim
+    - title: Design & Dev Tools
+      items:
+        - KiCad, Autodesk Eagle, Fusion 360, STM32CubeIDE, VSCode, PlatformIO, TensorFlow, Git
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: ITS Microelectronics and Embedded System Lab Assistant
+      institution: Sepuluh Nopember Institute of Technology (ITS)
+      year: Dec 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Mentored students in practical applications of electronic theory, guiding them through experiments and troubleshooting techniques.
+    - title: Head of Electronics Division, Abinara-1 Robotics Team
+      institution: Sepuluh Nopember Institute of Technology (ITS)
+      year: Dec 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Led the end-to-end hardware and software development of the Phynix-1 Hexapod Robot, culminating in a 1st place victory and Best Strategy award at the KRI 2024 National competition.
+        - Successfully implemented Agile methodologies to enhance team collaboration, enabling iterative development and significantly accelerating project timelines.
+        - Lead engineered and validated complex, high-speed PCBs up to 6 layers, including a carrier board for the NVIDIA Jetson platform, ensuring optimal signal integrity and system reliability.
+    - title: Hardware and Embedded System Engineer
+      institution: PT. Terobosan Anak Bangsa - Tulibot
+      year: Apr 2023 - Jun 2024
       description:
+        - Led the development of a transcription device by engineering the core firmware and Linux environment, designing a custom Allwinner A33-based single-board computer from the ground up, and creating a companion Flutter app.
+        - Designed and implemented a directional microphone array by applying delay filter techniques.
+    - title: IoT Developer and Hardware Engineer
+      institution: Lokapin
+      year: Sep 2022 - Mar 2023
+      description:
+        - Led the entire hardware development lifecycle for a LoRa-based pet tracker, from component research and BOM creation to the final 4-layer RF PCB design and firmware implementation, optimizing for low power consumption.
+    - title: Electrical Technician Internship
+      institution: Autonik Pack Machinery
+      year: Oct 2021 - Mar 2022
+      description:
+        - Executed industrial machine assembly, electrical wiring, and precision configuration of VFDs and thermal controllers for packaging machinery.
+        - Ensured all installations met project specifications and quality standards.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Fiammetta Cheetah Robot (Abinara-1 Team Project)
+      description:
+        - Architected and single-handedly developed the entire C++ control framework, integrating trajectory planning, state estimation, and advanced control methods to achieve dynamic movement.
+        - Implemented a sophisticated control stack featuring Model Predictive Control (MPC) for intelligent footstep planning and Whole-body Impulse Control (WBC) for precise, torque-based command execution. The resulting implementation is robust enough to withstand significant external disturbances, such as being kicked.
+        - Engineered both the low-level MCU firmware for sensor/actuator communication and the high-level PC-side software stack, establishing a seamless, real-time link for control and telemetry.
+        - Currently formulating and developing a novel, lightweight vision stack for real-time obstacle avoidance for both the robot's body and individual feet while traversing complex terrain.
+    - title: Phynix-1 Hexapod Robot (Abinara-1 Team Project)
+      description:
+        - Architected the foundational software and hardware, developing the core kinematics engine and motion planning algorithms while also leading the complete electronics system design.
+        - Led the hardware architecture design for a custom 6-layer carrier board for an NVIDIA Jetson, featuring an STM32H7 co-processor, a complex PMU with USB-C PD, and numerous high-speed interfaces including USB 3.0 and PCIe.
+    - title: BGA Rework Station Temperature Controller
+      description:
+        - Designed and implemented a modern, intuitive embedded user interface using LVGL, significantly enhancing usability and workflow for user operations.
+        - Developed a high-precision temperature control system for BGA rework, architected around an RP2040 microcontroller and a MAX6675 thermocouple interface.
+        - Authored custom, low-level C/C++ drivers for all system peripherals, implementing memory and thread-safe operations within a FreeRTOS environment to guarantee reliability.
+    - title: 4-DOF Robotic Arm
+      description:
+        - Engineered and fabricated a 4-DOF robotic arm, managing the entire process from 3D modeling and PLA-based 3D printing to final hardware assembly.
+        - Developed a responsive motion system using a standard PS2 controller for manual operation.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - 1st Place & Best Strategy, Kontes Robot Indonesia 2024 (National)
+        - 3rd Place, Kontes Robot Indonesia 2024 (Regional)
+    - year: 2022
       items:
-        - Max Planck Medal
+        - 3rd Place, Microcontroller Programming Competition, INFEST 2022 (National)
+    - year: 2021
+      items:
+        - 1st Place, Arduino Programming Competition, MECHAFEST 2021 (National)
+        - 3rd Place, Instrumentation Paper Competition, INFEST 2021 (National)
 
-- title: Academic Interests
-  type: nested_list
+- title: Education
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Bachelor's Degree in Electrical Engineering
+      institution: Sepuluh Nopember Institute of Technology (ITS)
+      year: Expected 2026
+      description:
+        - GPA: 3.67/4.00
+    - title: Industrial Automation Engineering
+      institution: SMKN 1 Kediri
+      year: Graduated 2022
