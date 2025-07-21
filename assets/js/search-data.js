@@ -74,11 +74,31 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-hotberry",
+          title: 'Hotberry',
+          description: "BGA Rework Station Temperature Controller",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/es_hotberry/";
+            },},{id: "projects-lokapin",
+          title: 'Lokapin',
+          description: "A low power pet tracking device",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/es_lokapin/";
             },},{id: "projects-mynd",
           title: 'Mynd',
           description: "A programmable school bell system.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/es_mynd/";
+            },},{id: "projects-stromvy",
+          title: 'Stromvy',
+          description: "An STM32-based Laboratory Power Supply",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/es_stromvy/";
+            },},{id: "projects-tulibot",
+          title: 'Tulibot',
+          description: "A wireless transcription device.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/es_tulibot/";
             },},{id: "projects-fiammetta",
           title: 'Fiammetta',
           description: "A dynamic quadruped robot dog.",
