@@ -140,11 +140,11 @@ I’m always eager to learn and collaborate on exciting projects, so feel free t
 <div class="row mt-4 g-4">
     <div class="col-md-4">
         <div class="card h-100 shadow-sm">
-            <img src="{{ '/assets/img/chikaku/render3.jpg' | relative_url }}" 
+            <img src="{{ 'assets/img/stromvy/DSC_0055.JPG' | relative_url }}" 
                  class="card-img-top gallery-img" 
                  alt="Gallery Image 1" 
                  style="height: 200px; object-fit: cover;"
-                 onclick="openModal('{{ '/assets/img/chikaku/render3.jpg' | relative_url }}', 'Gallery Image 4')">
+                 onclick="openModal('{{ 'assets/img/stromvy/DSC_0055.JPG' | relative_url }}', 'Gallery Image 4')">
         </div>
     </div>
     <div class="col-md-4">
@@ -172,11 +172,11 @@ I’m always eager to learn and collaborate on exciting projects, so feel free t
 <div class="row mt-4 g-4">
     <div class="col-md-4">
         <div class="card h-100 shadow-sm">
-            <img src="{{ '/assets/img/bel32lvgl/bel.jpg' | relative_url }}" 
+            <img src="{{ '/assets/img/mynd/bel.jpg' | relative_url }}" 
                  class="card-img-top gallery-img" 
                  alt="Gallery Image 1" 
                  style="height: 200px; object-fit: cover;"
-                 onclick="openModal('{{ '/assets/img/bel32lvgl/bel.jpg' | relative_url }}', 'Gallery Image 7')">
+                 onclick="openModal('{{ '/assets/img/mynd/bel.jpg' | relative_url }}', 'Gallery Image 7')">
         </div>
     </div>
     
