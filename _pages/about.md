@@ -26,15 +26,15 @@ latest_posts:
 ---
 Hey, thanks for stopping by! 👋
 
-I’m an **Electrical Engineering** student at the **Sepuluh Nopember Institute of Technology (ITS)** and the **Head of the Electronics Division** for the **Abinara-1 robotics team**. Our team is focused on solving challenging problems in legged robotics for competition purpose or research. We recently secured **1st place** and a **Best Strategy award** at the **2024 National Robot Contest (KRI)**, and received funding from Kemdiktisaintek for quadruped robot dog research.
+I’m an **Electrical Engineering** student at the **Sepuluh Nopember Institute of Technology (ITS)** and the **Head of the Electronics Division** for the **Abinara-1 robotics team**. My team is focused on solving challenging problems in legged robotics for competition purpose and research. We recently secured **1st place** and a **Best Strategy award** at the **2024 National Robot Contest (KRI)**, and received funding from Kemdiktisaintek for quadruped robot dog research.
 
-My expertise covers the **full hardware stack**, from architecting **high-speed, multi-layer PCBs** and developing complete **IoT stacks**, to writing **robust, low-level firmware in C/C++**. And just recently picked up an interest in **modern control theory**, particularly in **optimal control** for my thesis project.
+My expertise covers the **full hardware stack**, from architecting **high-speed digital, analog, multi-layer PCBs** and developing complete **IoT stacks**, to writing **robust, low-level firmware in C/C++**. And just recently picked up an interest in **modern control theory**, particularly in **optimal control** for my thesis project.
 
 I’ve applied these skills to various projects, from developing a complex **dynamic quadruped robot dog**, **high-speed PCB designs** for a custom **Jetson carrier board**, various **IoT devices**, that you can check out in detail in the <a href="{{ '/projects' | relative_url }}">projects</a> section.
 
 I’m always eager to learn and collaborate on exciting projects, so feel free to reach out!
 
-<div style="margin-top: 12rem;">
+<div style="margin-top: 4rem;">
 </div>
 
 ---
