@@ -3,7 +3,7 @@ layout: page
 title: Lokapin
 description: A low power pet tracking device
 img: assets/img/Lokapin Pettrack/lkpr3.PNG
-importance: 3
+importance: 6
 category: embedded systems
 giscus_comments: false
 ---

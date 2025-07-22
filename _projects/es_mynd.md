@@ -3,7 +3,7 @@ layout: page
 title: Mynd
 description: A programmable school bell system.
 img: assets/img/mynd/bel.jpg
-importance: 3
+importance: 2
 category: embedded systems
 giscus_comments: false
 ---
