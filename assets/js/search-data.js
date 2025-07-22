@@ -23,11 +23,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-hotberry",
+        },{id: "projects-chikaku",
+          title: 'Chikaku',
+          description: "A custom carrier board for Jetson SoMs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/es_chikaku/";
+            },},{id: "projects-hotberry",
           title: 'Hotberry',
           description: "BGA Rework Station Temperature Controller",
           section: "Projects",handler: () => {
               window.location.href = "/projects/es_hotberry/";
+            },},{id: "projects-life4line",
+          title: 'LiFe4Line',
+          description: "A LiFePO4 Battery Tester for Laboratory.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/es_life4line/";
             },},{id: "projects-lokapin",
           title: 'Lokapin',
           description: "A low power pet tracking device",
