@@ -118,8 +118,7 @@
         "Ladder Logic",
         "Verilog",
         "JavaScript",
-        "PHP",
-        "Dart"
+        "PHP"
       ]
     },
     {
@@ -144,8 +143,11 @@
         "Autodesk Eagle",
         "Fusion 360",
         "LTspice",
-        "Proteus",
-        "High-Speed PCB Design"
+        "High-Speed PCB Design",
+        "Electromagnetic Compatibility (EMC)",
+        "Signal Integrity",
+        "Thermal Management",
+        "Design For Manufacturability (DFM)"
       ]
     },
     {
